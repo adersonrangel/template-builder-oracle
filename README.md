@@ -7,3 +7,7 @@ La versión que estamos instalando es la versión del instanclient de Oracle 19.
 ## Información de instalación de InstanClient Oracle
 
 Es importante estar pendiente de las actualizaciones del proveedor de Oracle. En este link encontramos la información de descarga. [instalador oracleclient](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html)
+
+## Archivos
+
+Dentro de la carpeta Network->Admin podemos colocar las claves de acceso en caso tal que tengamos que conectar con un Oracle Cloud. Si nuestra isntalación de Oracle se encuentra on-premise no habra ningun problema, solo es realizar las configuraciones respectivas de cadena de conexión dentro del aplicativo.
