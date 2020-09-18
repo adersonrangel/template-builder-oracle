@@ -11,3 +11,5 @@ Es importante estar pendiente de las actualizaciones del proveedor de Oracle. En
 ## Archivos
 
 Dentro de la carpeta Network->Admin podemos colocar las claves de acceso en caso tal que tengamos que conectar con un Oracle Cloud. Si nuestra isntalación de Oracle se encuentra on-premise no habra ningun problema, solo es realizar las configuraciones respectivas de cadena de conexión dentro del aplicativo.
+
+## Datos
