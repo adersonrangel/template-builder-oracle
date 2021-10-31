@@ -1,5 +1,5 @@
 # Build runtime image
-FROM mcr.microsoft.com/dotnet/core/aspnet:5.0
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 ENV TZ=CET
 COPY ./instantclient_21_1 /opt/oracle/instantclient_21_1/
 RUN  apt-get update && \ 
