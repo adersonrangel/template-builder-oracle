@@ -13,6 +13,7 @@ RUN apt-get update && \
 RUN echo /opt/oracle/instantclient_23_26 > /etc/ld.so.conf.d/oracle-instantclient.conf && \
     ldconfig
 
+ENV ORACLE_HOME=/opt/oracle/instantclient_23_26
 ENV LD_LIBRARY_PATH=/opt/oracle/instantclient_23_26
 ENV PATH=/opt/oracle/instantclient_23_26:$PATH
 ENV TNS_ADMIN=/opt/oracle/instantclient_23_26/network/admin
